@@ -5,37 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatGPT</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="ChatGPT icon" href="https://chat.openai.com/favicon.ico"> 
 </head>
 <body>
-    <section class="side-nav">
+    <div class="left-section">
+        <button class="new-chat-button">
+            <div class="icon-new-chat">
+                <img class="New-chat-icon" src="ChatGPT Icon.jpg" alt="ChatGPT icon">
+                <p class="newchat">New chat </p>
+            </div>
+            <div class="edit-icon">
+                <i class="fa-regular fa-pen-to-square edit"></i>
+            </div>
+        </button>
+        
+    </div>
+    <div class="right-section">
+        <div class="dropdown">
+            <button class="dropbtn">
+                ChatGPT <span>3.5 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" class="text-token-text-tertiary"><path d="M11.3346 7.83203L8.00131 11.1654L4.66797 7.83203" stroke="#f7f5f596" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+            </button>
+            
+            <!-- DROP-DOWN MENU -->
+            
+            <!-- <div id="myDropdown" class="dropdown-content">
+              <div class="select-GPT-3.5">
+              </div> -->
+            <!-- </div> -->
+        </div>
+      <div class="center-content">
+        <div class="center-elements-icon-and-image">
+            <img class="center-icon" src="ChatGPT Icon.jpg" alt="ChatGPT Icon">
+            <h1>How can I help you today?</h1>
+        </div>
+      <div class="bottom-right-content">
+        <div class="four-containers">
+            <div class="row1">
+            <div class="row1col1 container">
+                <p class="query">Give me ideas</p>
+                <p class="text">about how to plan my New Years resolutions</p>
+            </div>
+            <div class="row1col2 container">
+                <p class="query">Plan a trip</p>
+                <p class="text">to see the best of New York in 3 days</p>
+            </div>
+            </div>
+            <div class="row2">
+            <div class="row2col1 container">
+                <p class="query">Brainstorm incentives</p>
+                <p class="text">for a customer loyalty program in small bookstores</p>
+            </div>
+            <div class="row2col2 container">
+                <p class="query">Make up a story</p>
+                <p class="text">about Sharky, a tooth-brushing shark superhero</p>
+            </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" placeholder="Message ChatGPT...">
+            <button class="submit">
+                <i class="fa-solid fa-arrow-up submit-icon"></i>
+            </button>
+        </div>
+        <p class="bottom-text">ChatGPT can make mistakes. Consider checking important information.</p>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="side-nav">
         <button class="New-chat-bar">
             <img class="new-chat-icon" src="ChatGPT Icon.jpg" alt="ChatGPT icon">
             New Chat
         </button>
         <article class="history"></article>
         <article class="nav">
-            <p class="lower-side-nav"><img class="sparkle-icon" src="sparkle.jpg" alt="Sparkling Stars">
+            <img class="sparkle-icon" src="sparkle.jpg" alt="Sparkling Stars">
+            <p class="lower-side-nav">
             Upgrade plan</p>
         </article>
-        </section>
+    </section>
     <section class="main">
         <section class="center-content">
-        <img class="new-chat-icon" src="ChatGPT Icon.jpg" alt="ChatGPT icon">
-        <h1>How can I help you today?</h1>
+        <h1 class="logo-welcome-text">
+            <img class="new-chat-icon" id="logo" src="ChatGPT Icon.jpg" alt="ChatGPT icon">
+            How can I help you today?</h1>
         </section>
         <p id="output">
             <span id="loading">Loading...</span>
         </p>
-        <article class="bottom-section">
+        <div class="bottom-section">
             <article class="input-container">
                 <input type="text" class="text" value="Message ChatGPT..." >
-                <button class="submit"><i class="fa-solid fa-arrow-up"></i></button>
-                </article>
+                <div class="submit-button">
+                    <button class="submit">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </button>
+                </div>
             </article>
+        </div>
         </article>
         <p class="info">ChatGPT can make mistakes. Consider checking important information.</p>
-    </section>
+    </section> -->
 </body>
 </html>
